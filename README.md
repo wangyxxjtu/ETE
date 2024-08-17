@@ -2,9 +2,6 @@
 
 This is is a PyTorch implementation of the new task of Entity-oriented Text-based Image Retrieval introduced in this paper:
 
-<--![Association Implanation Newwork for Superpixel Segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_AINet_Association_Implantation_for_Superpixel_Segmentation_ICCV_2021_paper.pdf)-->
-
-
 ## Introduction
 The Illustration of AINet:
 
