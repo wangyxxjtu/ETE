@@ -1,0 +1,17 @@
+#just a quick training and testing guidance for N4News dataset, VisualNews and GoodNews can be done in the same way
+ 
+step 1: download the N4News dataset via this link: https://drive.google.com/file/d/1OS1fXwZ1Vsj70lEQajccyssxQRYp5X9D/view?usp=share_link
+
+step 2: place the dataset to /your/data/path/
+the structure is :
+     N24News
+           --imgs
+           --news
+
+step 3: download our generated explanation text: https://drive.google.com/drive/folders/1kbwiZIATA8vsGYa23XS-u0WFZlR99grN?usp=sharing
+       and place them into /your/data/path/N24News/news/
+
+step 3: specific the dataset path as /your/data/path/ in run.sh
+
+step 4: sh run.sh
+
