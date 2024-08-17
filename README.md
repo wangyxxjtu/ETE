@@ -20,7 +20,7 @@ git clone https://github.com/wangyxxjtu/ETE.git
 ```
 step 3: install the required dependencies:
 ``` bash
-pip install -r requirement
+pip install -r requirements.txt
 ```
 
 
