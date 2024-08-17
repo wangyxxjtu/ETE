@@ -15,24 +15,24 @@ step 1: create virtual enviroment, recommend anaconda
 conda create -n ETE python=3.9
 ```
 step 2: clone this repository
-```console
+```bash
 git clone https://github.com/wangyxxjtu/ETE.git
 ```
 step 3: install the required dependencies:
-``` console
+``` bash
 pip install -r requirement
 ```
 
 
 ## Data Preparation
 step 1: download our generated auxiliary explanation Text
-```console
+```bash
 pip install gdown
 gdown https://drive.google.com/drive/folders/1kbwiZIATA8vsGYa23XS-u0WFZlR99grN?
 ```
 
 step 2: download three evaluation dataset: N4News, VisualNews, and GoodNews:
-``` console
+``` bash
 #N24News
 gdown https://drive.google.com/file/d/1OS1fXwZ1Vsj70lEQajccyssxQRYp5X9D/view?
 
@@ -44,7 +44,7 @@ download GoodNews in this page: https://github.com/furkanbiten/GoodNews
 ```
 
 step 3: organize three dataset in the following from
-``` console
+``` bash
 N24News
     --imgs
     --news
@@ -74,7 +74,7 @@ GoodNews
 
 ## training and test
 option 1
-``` console
+``` bash
 #train
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset N24News  --output checkpoints --expert_config '444' --beta 0.1  --batch_size 192
 
@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=$GPU python eval.py --dataset N24News  --output checkpoints
 ```
 
 option 2: specify the details in run.sh and run:
-``` console
+``` bash
 sh run.sh
 ```
 
