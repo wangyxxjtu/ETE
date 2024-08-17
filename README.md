@@ -88,7 +88,7 @@ sh run.sh
 ## Experiment results
 ### Retrieval Results on N24News, VisualNews and GoodNews
 
-<img src="figures/n24news.png" width="845" alt="workflow" />
+<img src="figures/n4news.png" width="845" alt="workflow" />
 
 <img src="figures/visualnews.png" width="845" alt="workflow" />
 
