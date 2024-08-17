@@ -98,11 +98,11 @@ sh run.sh
 
 Evaluation setup:
 
-<img src="figures/classification.png" width="845" alt="workflow" />
+<img src="figures/classification.png" width="545" alt="workflow" />
 
 Results:
 
-<img src="figures/classificationres.png" width="845" alt="workflow" />
+<img src="figures/classificationres.png" width="645" alt="workflow" />
 
 ### Visualization results
 Attention Visualization in Explanation expert:
