@@ -5,7 +5,7 @@ This is is a PyTorch implementation of the new task of Entity-oriented Text-base
 ## Introduction
 The Illustration of AINet:
 
-<img src="figures/workflow.png" width="845" alt="workflow" />
+<img src="figures/framework.png" width="845" alt="workflow" />
 
 
 ## Environment Preparation 
@@ -51,7 +51,6 @@ N24News
         --CapDsc_mistral_train.json
         --CapDsc_mistral_dev.json
         --CapDsc_mistral_test.json
-
 VisualNews
     --images
     --train.json
@@ -60,7 +59,6 @@ VisualNews
     --CapDsc_mistral_train.json
     --CapDsc_mistral_val.json
     --CapDsc_mistral_test.json
-
 GoodNews
     --images
     --new_goodnews_capim_train.json
@@ -100,8 +98,11 @@ sh run.sh
 
 Evaluation setup:
 
-<img src="figures/classification" width="845" alt="workflow" />
+<img src="figures/classification.png" width="845" alt="workflow" />
 
+Results:
+
+<img src="figures/classificationres.png" width="845" alt="workflow" />
 
 ### Visualization results
 Attention Visualization in Explanation expert:
