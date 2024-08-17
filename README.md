@@ -1,4 +1,4 @@
-#Entity-Oriented Text-based Image Retrieval: A Baseline 
+# Entity-Oriented Text-based Image Retrieval: A Baseline 
 
 This is is a PyTorch implementation of the new task of Entity-oriented Text-based Image Retrieval introduced in this paper:
 
