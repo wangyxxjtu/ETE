@@ -114,7 +114,7 @@ sh run.sh
 
 Evaluation setup and Confusion Matrix:
 
-<img src="figures/zerovis" width="545" alt="workflow" />
+<img src="figures/zerovis.png" width="845" alt="workflow" />
 
 Results:
 
