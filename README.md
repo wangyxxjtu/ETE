@@ -5,12 +5,8 @@ Image-Text Matching with Multimodal Attentive Experts](https://arxiv.org/abs/241
 
 
 ## 💡 News
-- `Update!`: [AINet+](https://arxiv.org/html/2101.10696v4) is released, an improved model for superpixels generation built on the top of AINet. 
-- `Update!`: To ease the all experiments, we build a docker to reproduce all reported results in our paper! Please Go to [Docker directory](https://github.com/wangyxxjtu/AINet-Superpixel/edit/master/docker)
-- `Update!`: An online Colab is relased to quick taste AINet: [Colab demo](https://drive.google.com/drive/folders/1ZudgYbMHjuoLiZRCPe9VVPCM7C9561sY?usp=sharing)!
-- `update!`: How to evludate the model and plot the curves in our paper are added. Check "Evaluation" section. 
-- `update!`: All training and inference code are released! 
-<!-- And check our [project page]()! -->
+- `2025/04/08 Update!`: Code is released to the public.
+- `2025/04/05 Update!`: EntityCLIP is accepted by SIGIR 2025. Congratulations to ALL! 
 
 
 ## 🔆 Introduction
