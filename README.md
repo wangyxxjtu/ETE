@@ -97,9 +97,9 @@ sh run.sh
 
 <img src="figures/n4news.png" width="845" alt="workflow" />
 
-<img src="figures/visualnews.png" width="845" alt="workflow" />
-
 <img src="figures/goodnews.png" width="845" alt="workflow" />
+
+<img src="figures/visualnews.png" width="845" alt="workflow" />
 
 ### Generalization Evaluation on Cross-domain retrieval
 
