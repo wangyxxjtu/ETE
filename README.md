@@ -105,7 +105,12 @@ sh run.sh
 
 <img src="figures/goodnews.png" width="845" alt="workflow" />
 
-### Evaluation on Multimodal News Classification
+### Generalization Evaluation on Cross-domain retrieval
+
+<img src="figures/gene.png" width="845" alt="workflow" />
+
+
+### Generalization Evaluation on Multimodal News Classification
 
 Evaluation setup:
 
@@ -116,16 +121,31 @@ Results:
 <img src="figures/classificationres.png" width="645" alt="workflow" />
 
 ### Visualization results
-Attention Visualization in Explanation expert:
 
-<img src="figures/attnvis.png" width="845" alt="workflow" />
-
-Retrieval results:
-
-<img src="figures/retrievalres.png" width="845" alt="workflow" />
+<img src="figures/visualization.png" width="845" alt="workflow" />
 
 
+## 🖊️ Citation
+If you use our code, please cite our work:
+``` bash
+@article{EntityClip_Wang,
+  author       = {Yaxiong Wang and
+                  Lianwei Wu and
+                  Lechao Cheng and
+                  Zhun Zhong and
+                  Meng Wang},
+  title        = {Beyond General Alignment: Fine-Grained Entity-Centric
+Image-Text Matching with Multimodal Attentive Experts},
+  journal      = {CoRR},
+  volume       = {abs/2410.17810},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2410.17810},
+booktitle    = {Proceedings of the 47th International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval, {SIGIR} 2025},
+  publisher    = {{ACM}},
+  year         = {2025}
+}
+```
 
-
-## Acknowledgement
+## 🔆 Acknowledgement
 This code is built on the top of CLIP: https://github.com/openai/CLIP . Thank the authors' contribution. 
