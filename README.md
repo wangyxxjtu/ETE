@@ -1,14 +1,25 @@
 # Entity-Oriented Text-based Image Retrieval: A Baseline 
 
-This is is a PyTorch implementation of the new task of Entity-oriented Text-based Image Retrieval introduced in this paper:
+This is is a PyTorch implementation of the new task of EntityCLIP: Beyond General Alignment: Fine-Grained Entity-Centric
+Image-Text Matching with Multimodal Attentive Experts[https://arxiv.org/abs/2410.17810]
 
-## Introduction
-The Illustration of AINet:
+
+## 💡 News
+- `Update!`: [AINet+](https://arxiv.org/html/2101.10696v4) is released, an improved model for superpixels generation built on the top of AINet. 
+- `Update!`: To ease the all experiments, we build a docker to reproduce all reported results in our paper! Please Go to [Docker directory](https://github.com/wangyxxjtu/AINet-Superpixel/edit/master/docker)
+- `Update!`: An online Colab is relased to quick taste AINet: [Colab demo](https://drive.google.com/drive/folders/1ZudgYbMHjuoLiZRCPe9VVPCM7C9561sY?usp=sharing)!
+- `update!`: How to evludate the model and plot the curves in our paper are added. Check "Evaluation" section. 
+- `update!`: All training and inference code are released! 
+<!-- And check our [project page]()! -->
+
+
+## 🔆 Introduction
+The Illustration of EntityCLIP:
 
 <img src="figures/framework.png" width="845" alt="workflow" />
 
 
-## Environment Preparation 
+## ⚙️ Prerequisites
 The training code was mainly developed and tested with python 3.9, PyTorch 1.13, CUDA 12.4, and Ubuntu 20.04.
 step 1: create virtual enviroment, recommend anaconda
 ``` bash
@@ -24,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 
-## Data Preparation
+## ⭐️ Data Preparation
 step 1: download our generated auxiliary explanation Text
 ```bash
 pip install gdown
@@ -70,7 +81,7 @@ GoodNews
         --New_Corr_CapDsc_mistral_test.json
 ```
 
-## training and test
+## 🛠️ training and test
 option 1
 ``` bash
 #train
@@ -85,7 +96,7 @@ option 2: specify the details in run.sh and run:
 sh run.sh
 ```
 
-## Experiment results
+## 🚀 Experiment results
 ### Retrieval Results on N24News, VisualNews and GoodNews
 
 <img src="figures/n4news.png" width="845" alt="workflow" />
