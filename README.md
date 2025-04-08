@@ -81,7 +81,7 @@ GoodNews
         --New_Corr_CapDsc_mistral_test.json
 ```
 
-## 🛠️ training and test
+## 🛠️ Training and test
 option 1
 ``` bash
 #train
