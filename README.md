@@ -128,4 +128,4 @@ Retrieval results:
 
 
 ## Acknowledgement
-This code is built on the top of CLIP: https://github.com/openai/CLIP Thank the authors' contribution. 
+This code is built on the top of CLIP: https://github.com/openai/CLIP . Thank the authors' contribution. 
