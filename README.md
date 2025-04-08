@@ -1,7 +1,7 @@
 # Entity-Oriented Text-based Image Retrieval: A Baseline 
 
-This is is a PyTorch implementation of the new task of EntityCLIP: Beyond General Alignment: Fine-Grained Entity-Centric
-Image-Text Matching with Multimodal Attentive Experts[https://arxiv.org/abs/2410.17810]
+This is is a PyTorch implementation of the new task of [EntityCLIP: Beyond General Alignment: Fine-Grained Entity-Centric
+Image-Text Matching with Multimodal Attentive Experts](https://arxiv.org/abs/2410.17810)
 
 
 ## 💡 News
