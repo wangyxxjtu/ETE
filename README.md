@@ -112,9 +112,9 @@ sh run.sh
 
 ### Generalization Evaluation on Multimodal News Classification
 
-Evaluation setup:
+Evaluation setup and Confusion Matrix:
 
-<img src="figures/classification.png" width="545" alt="workflow" />
+<img src="figures/zerovis" width="545" alt="workflow" />
 
 Results:
 
