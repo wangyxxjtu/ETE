@@ -5,7 +5,7 @@ Image-Text Matching with Multimodal Attentive Experts](https://arxiv.org/abs/241
 
 
 ## 💡 News
-- `2025/04/08 Update!`: Code was released to the public. Detailed guidace was given as well.
+- `2025/04/08 Update!`: Code was released to the public with detailed guidace regarding how to use this code.
 - `2025/04/05 Update!`: EntityCLIP was accepted by SIGIR 2025. Congratulations to ALL! 
 
 
