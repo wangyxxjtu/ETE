@@ -133,10 +133,6 @@ If you use our code, please cite our work:
                   Meng Wang},
   title        = {Beyond General Alignment: Fine-Grained Entity-Centric
 Image-Text Matching with Multimodal Attentive Experts},
-  journal      = {CoRR},
-  volume       = {abs/2410.17810},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2410.17810},
 booktitle    = {Proceedings of the 47th International {ACM} {SIGIR} Conference on
                   Research and Development in Information Retrieval, {SIGIR} 2025},
   publisher    = {{ACM}},
